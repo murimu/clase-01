@@ -1,7 +1,7 @@
 var a=30;
 var c;
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windoWidth, windowHeight);
 }
 
 function draw() {
@@ -11,7 +11,7 @@ function draw() {
   noStroke();
   c= a* random(1,5);
   ellipse(mouseX,mouseY,c,c);
-  frameRate(5);
+ 
   
 
 }
